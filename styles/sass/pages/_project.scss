@@ -1,0 +1,30 @@
+#container-projects{
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  .projects-body{
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    .body-top{
+      background-color: aqua;
+      width: auto;
+      height: 70%;
+    }
+    .body-bot {
+      height: 30%;
+      background-color: yellow;
+      margin: 0;
+      padding: 5px 10px 5px 10px;
+
+      h3 {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

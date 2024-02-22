@@ -1,0 +1,15 @@
+/* Import var */
+
+@import "var/variables";
+
+/* Import pages */
+
+@import "pages/header";
+@import "pages/presentation";
+@import "pages/project";
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
