@@ -1,29 +1,43 @@
-#container-projects{
-  background-color: red;
-  display: flex;
-  justify-content: space-around;
-  .projects-body{
-    display: flex;
-    flex-direction: column;
-    background-color: coral;
-    width: 350px;
-    height: 250px;
-    border-radius: 15px;
-    overflow: hidden;
-    .body-top{
-      background-color: aqua;
-      width: auto;
-      height: 70%;
-    }
-    .body-bot {
-      height: 30%;
-      background-color: yellow;
-      margin: 0;
-      padding: 5px 10px 5px 10px;
 
-      h3 {
-        padding: 0;
+#projects{
+  margin: 0 15px 0 15px;
+  #container-projects{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    .projects-body{
+      display: flex;
+      flex-direction: column;
+      background-color: coral;
+      width: 350px;
+      height: 250px;
+      border-radius: 15px;
+      overflow: hidden;
+      .body-top{
+        background-color: aqua;
+        width: auto;
+        height: 70%;
+        a{
+          background-color: darkolivegreen;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          object-fit: contain;
+          width: 100%;
+        }
+      }
+      .body-bot {
+        min-height: 30%;
+        max-height: 30%;
+        background-color: yellow;
+        text-align: center;
         margin: 0;
+        padding: 5px 10px 5px 10px;
+
+        h3 {
+          padding: 0;
+          margin: 0;
+        }
       }
     }
   }
