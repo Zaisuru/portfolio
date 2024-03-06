@@ -5,16 +5,23 @@
 @import "components/img";
 @import "components/card";
 @import "components/form";
+@import "components/btn";
+@import "components/progressbar";
 
 .homePresentation{
+  height: 1000px;
   background-color: $primaryColor;
+  color: white;
   padding-top: 25px;
 }
 #skills{
   background-color: $secondaryColor;
+  height: 1000px;
 }
-#projectContainer{
+#projects{
   background-color: $primaryColor;
+  color:white;
+  height: 1000px;
 }
 #contactMe{
   background-color: $secondaryColor;

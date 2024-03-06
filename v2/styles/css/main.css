@@ -10,14 +10,15 @@
 
 .projectCard {
   height: 350px;
+  padding: 0;
   max-height: 350px;
   display: flex;
   margin-bottom: 25px;
   align-items: center;
 }
 .projectCard .card-img-top {
-  height: 150px;
-  width: auto;
+  height: 60%;
+  width: 100%;
 }
 .projectCard .btn {
   width: 35%;
@@ -31,17 +32,53 @@
   text-align: center;
 }
 
-.homePresentation {
+#btnCV {
+  width: 150px;
+}
+
+.btn-dark {
+  background-color: #ffffff;
+  color: #ff3740;
+  border: none;
+}
+.btn-dark:hover {
+  background-color: #ff3740;
+  color: white;
+}
+
+.btn-light {
   background-color: #161616;
+  color: white;
+  border: none;
+}
+.btn-light:hover {
+  background-color: #ff3740;
+  color: white;
+}
+
+.progress {
+  background-color: #161616;
+}
+.progress .progress-bar {
+  background-color: #ff3740;
+}
+
+.homePresentation {
+  height: 1000px;
+  background-color: #161616;
+  color: white;
   padding-top: 25px;
 }
 
 #skills {
   background-color: #ffffff;
+  height: 1000px;
 }
 
-#projectContainer {
+#projects {
   background-color: #161616;
+  color: white;
+  height: 1000px;
 }
 
 #contactMe {

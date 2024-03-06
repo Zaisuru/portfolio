@@ -11,7 +11,7 @@ let describeProject= [
     "Projet 5 du parcours Développeur Web chez OpenClassrooms edition 2021"
 
 ];
-let imgProject = ["pep.PNG",
+let imgProject = ["http://www.pepiniere-ets-leclerc.com/",
 "KiloShop.png",
 "booki.png",
 "booki.png"];
@@ -38,7 +38,7 @@ function addElement() {
 
         img.classList.add('card-img-top');
         img.setAttribute("id", titleProject[i]);
-        img.setAttribute("src","pictures/"+imgProject[i]);
+        img.setAttribute("src","https://aprc.it/api/240x150/"+imgProject[i]);
         document.getElementById(cardDiv.id).appendChild(img);
 
         cardBodyDiv.classList.add("card-body");
@@ -55,7 +55,7 @@ function addElement() {
         paragraph.textContent = describeProject[i];
         document.getElementById(cardBodyDiv.id).appendChild(paragraph);
 
-        btn.classList.add('btn','btn-primary');
+        btn.classList.add('btn','btn-primary','btn-light');
         btn.textContent = ("Voir le site");
         document.getElementById(cardDiv.id).appendChild(btn);
 

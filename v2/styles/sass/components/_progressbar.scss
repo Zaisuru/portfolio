@@ -1,0 +1,8 @@
+@import "../abstracts/variables";
+
+.progress{
+  background-color: $primaryColor;
+  .progress-bar{
+    background-color: $quarteraryColor;
+  }
+}

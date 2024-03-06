@@ -1,0 +1,23 @@
+@import "../abstracts/variables";
+
+#btnCV{
+  width: 150px;
+}
+.btn-dark{
+  background-color: $secondaryColor;
+  color: $quarteraryColor;
+  border: none;
+  &:hover{
+    background-color: $quarteraryColor;
+    color: white;
+  }
+}
+.btn-light{
+   background-color: $primaryColor;
+   color: white;
+   border: none;
+   &:hover{
+     background-color: $quarteraryColor;
+     color: white;
+   }
+ }
