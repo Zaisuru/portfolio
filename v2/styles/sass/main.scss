@@ -7,9 +7,15 @@
 @import "components/form";
 
 .homePresentation{
-  background-color: red;
+  background-color: $primaryColor;
   padding-top: 25px;
 }
 #skills{
+  background-color: $secondaryColor;
+}
+#projectContainer{
+  background-color: $primaryColor;
+}
+#contactMe{
   background-color: $secondaryColor;
 }

@@ -32,12 +32,20 @@
 }
 
 .homePresentation {
-  background-color: red;
+  background-color: #161616;
   padding-top: 25px;
 }
 
 #skills {
-  background-color: #fff;
+  background-color: #ffffff;
+}
+
+#projectContainer {
+  background-color: #161616;
+}
+
+#contactMe {
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
