@@ -1,0 +1,43 @@
+.homeImg {
+  border-radius: 50%;
+}
+
+.skillCard {
+  padding: 15px;
+  height: 550px;
+  max-height: 550px;
+}
+
+.projectCard {
+  height: 350px;
+  max-height: 350px;
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.projectCard .card-img-top {
+  height: 150px;
+  width: auto;
+}
+.projectCard .btn {
+  width: 35%;
+}
+
+.form-row {
+  margin: 15px;
+}
+
+.formBtn {
+  text-align: center;
+}
+
+.homePresentation {
+  background-color: red;
+  padding-top: 25px;
+}
+
+#skills {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

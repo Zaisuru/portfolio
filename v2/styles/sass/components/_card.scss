@@ -1,0 +1,21 @@
+.skillCard{
+  padding: 15px;
+  height: 550px;
+  max-height: 550px;
+}
+
+.projectCard{
+  height: 350px;
+  max-height: 350px;
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+  .card-img-top{
+    height: 150px;
+    width: auto;
+  }
+  .btn{
+    width: 35%;
+  }
+
+}

@@ -1,0 +1,15 @@
+@import "abstracts/variables";
+
+@import "base/fonts";
+
+@import "components/img";
+@import "components/card";
+@import "components/form";
+
+.homePresentation{
+  background-color: red;
+  padding-top: 25px;
+}
+#skills{
+  background-color: $secondaryColor;
+}
