@@ -89,25 +89,25 @@
         <div class="col-12 p-5 text-center">
           <h2 class="display-4">Contactez moi</h2>
         </div>
-        <form>
+        <form method="post" action="script/form.php">
           <div class="form-row">
             <div class="col-lg-6 col-sm-12">
               <label for="firstName">Votre prénom</label>
-              <input type="text" class="form-control" placeholder="John" id="firstName">
+              <input type="text" class="form-control" placeholder="John" id="firstName" name="firstName" required>
             </div>
             <div class="col-lg-6 col-sm-12">
               <label for="lastName">Votre Nom</label>
-              <input type="text" class="form-control" placeholder="Doe" id="lastName">
+              <input type="text" class="form-control" placeholder="Doe" id="lastName" name="lastName" required>
             </div>
           </div>
           <div class="form-row">
             <label for="email">Votre email</label>
-            <input type="email" class="form-control" id="email" placeholder="john.doe@contoso.com">
+            <input type="email" class="form-control" id="email" placeholder="john.doe@contoso.com" name="email" required>
           </div>
 
           <div class="form-row">
             <label for="textareaMessage">Ecrivez votre message ici : </label>
-            <textarea class="form-control" rows="6" id="textareaMessage" placeholder="Votre Message"></textarea>
+            <textarea class="form-control" rows="6" id="textareaMessage" placeholder="Votre Message" name="msg"></textarea>
           </div>
 
           <div class="form-row">
