@@ -2,13 +2,15 @@ let titleProject = [
     "Pépinières Epaignes",
     "KiloShop",
     "Booki",
-    "Oh My Food"
+    "Oh My Food",
+    "Matrice KiloShop"
 ];
 let describeProject= [
     "Projet pour la pépnière d'Epaignes en Normandie",
     "Application web dans le but de géer une base de données des clients pour ensuite utiliser un outils de newsletter",
     "Projet 2 du parcours Développeur Web chez OpenClassrooms edition 2021",
-    "Projet 5 du parcours Développeur Web chez OpenClassrooms edition 2021"
+    "Projet 5 du parcours Développeur Web chez OpenClassrooms edition 2021",
+    "Création d'un dashboard de ventes pour les magasins KiloShop"
 
 ];
 let imgProject = ["http://www.pepiniere-ets-leclerc.com/",

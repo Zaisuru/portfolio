@@ -8,21 +8,25 @@
 @import "components/btn";
 @import "components/progressbar";
 
-.homePresentation{
-  height: 1000px;
-  background-color: $primaryColor;
-  color: white;
-  padding-top: 25px;
-}
-#skills{
-  background-color: $secondaryColor;
-  height: 1000px;
-}
-#projects{
-  background-color: $primaryColor;
-  color:white;
-  height: 1000px;
-}
-#contactMe{
-  background-color: $secondaryColor;
+body{
+  font-family: $Roboto;
+
+  .homePresentation{
+    background-color: $primaryColor;
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  #skills{
+    background-color: $secondaryColor;
+    margin-bottom: 50px;
+  }
+  #projects{
+    background-color: $primaryColor;
+    margin: 50px 0 50px 0;
+    color:white;
+  }
+  #contactMe{
+    background-color: $secondaryColor;
+  }
 }

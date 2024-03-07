@@ -1,27 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .homeImg {
   border-radius: 50%;
 }
 
 .skillCard {
   padding: 15px;
+  margin-top: 15px;
   height: 550px;
   max-height: 550px;
 }
 
 .projectCard {
-  height: 350px;
+  height: 250px;
   padding: 0;
   max-height: 350px;
   display: flex;
-  margin-bottom: 25px;
+  margin: 25px 0 25px 0;
   align-items: center;
 }
 .projectCard .card-img-top {
-  height: 60%;
+  height: 100%;
   width: 100%;
+}
+.projectCard .card-body {
+  display: none;
 }
 .projectCard .btn {
   width: 35%;
+  display: none;
+}
+.projectCard p {
+  font-size: 15px;
+}
+.projectCard:hover {
+  background-color: white;
+}
+.projectCard:hover .card-img-top {
+  display: none;
+}
+.projectCard:hover .card-body {
+  display: block;
+}
+.projectCard:hover .btn {
+  display: block;
 }
 
 .form-row {
@@ -63,25 +84,25 @@
   background-color: #ff3740;
 }
 
-.homePresentation {
-  height: 1000px;
+body {
+  font-family: "Roboto", sans-serif;
+}
+body .homePresentation {
   background-color: #161616;
   color: white;
-  padding-top: 25px;
+  font-size: 20px;
+  padding-top: 50px;
 }
-
-#skills {
+body #skills {
   background-color: #ffffff;
-  height: 1000px;
+  margin-bottom: 50px;
 }
-
-#projects {
+body #projects {
   background-color: #161616;
+  margin: 50px 0 50px 0;
   color: white;
-  height: 1000px;
 }
-
-#contactMe {
+body #contactMe {
   background-color: #ffffff;
 }
 
