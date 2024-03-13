@@ -1,0 +1,11 @@
+@import "../abstracts/variables";
+
+footer{
+    background-color: $primaryColor;
+
+    i{
+        color: white;
+        font-size: 2em;
+        margin: 0.5em 2em;
+    }
+}

@@ -132,5 +132,16 @@
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+    </div>
+  </footer>
 </body>
 </html>

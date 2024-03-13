@@ -100,6 +100,15 @@
   color: #ff3740;
 }
 
+footer {
+  background-color: #161616;
+}
+footer i {
+  color: white;
+  font-size: 2em;
+  margin: 0.5em 2em;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;

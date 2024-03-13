@@ -1,28 +1,30 @@
 let titleProject = [
+    "Oh My Food",
     "Pépinières Epaignes",
     "KiloShop",
-    "Booki",
-    "Oh My Food",
-    "Matrice KiloShop"
+    "Matrice KiloShop",
+    "Booki"
 ];
 let describeProject= [
+    "Projet 3 du parcours Développeur Web chez OpenClassrooms edition 2021",
     "Projet pour la pépnière d'Epaignes en Normandie",
+    "Création d'un dashboard de ventes pour les magasins KiloShop",
     "Application web dans le but de géer une base de données des clients pour ensuite utiliser un outils de newsletter",
     "Projet 2 du parcours Développeur Web chez OpenClassrooms edition 2021",
-    "Projet 5 du parcours Développeur Web chez OpenClassrooms edition 2021",
-    "Création d'un dashboard de ventes pour les magasins KiloShop"
 
 ];
-let imgProject = ["pictures/pep.png",
+let imgProject = ["pictures/ohMyFood.png",
+    "pictures/pep.png",
 "pictures/KiloShop.png",
 "pictures/booki.png",
-"pictures/ohMyFood.png"];
+"pictures/booki.png",];
 
 
-let linkProject =["http://www.pepiniere-ets-leclerc.com",
+let linkProject =["#",
 "http://www.pepiniere-ets-leclerc.com",
-"https://zaisuru.github.io/Booki/",
-"http://www.pepiniere-ets-leclerc.com"
+"#",
+"#",
+" https://zaisuru.github.io/Booki/"
 ]
 
 function addElement() {
