@@ -136,9 +136,9 @@
   <footer>
     <div class="container">
         <div class="row">
-          <div class="col-sm-12 text-center">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <div class="col-12 text-center">
+          <a href="https://github.com/Zaisuru"><i class="fa-brands fa-github"></i></a>
+          <a href="www.linkedin.com/in/thomas-holderbaum-993544a7"><i class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
     </div>

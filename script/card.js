@@ -8,15 +8,15 @@ let titleProject = [
 let describeProject= [
     "Projet 3 du parcours Développeur Web chez OpenClassrooms edition 2021",
     "Projet pour la pépnière d'Epaignes en Normandie",
-    "Création d'un dashboard de ventes pour les magasins KiloShop",
     "Application web dans le but de géer une base de données des clients pour ensuite utiliser un outils de newsletter",
+    "Création d'un dashboard de ventes pour les magasins KiloShop",
     "Projet 2 du parcours Développeur Web chez OpenClassrooms edition 2021",
 
 ];
 let imgProject = ["pictures/ohMyFood.png",
     "pictures/pep.png",
 "pictures/KiloShop.png",
-"pictures/booki.png",
+"pictures/StatKs.png",
 "pictures/booki.png",];
 
 
