@@ -24,7 +24,8 @@ let otherSkill = [
     "PowerShell",
     "Batch",
     "Bash",
-    "Gestion de projet"
+    "Gestion de projet",
+    "Supervision"
 ];
 let otherSkillPercent=[
     70,
@@ -32,7 +33,8 @@ let otherSkillPercent=[
     65,
     60,
     40,
-    65
+    65,
+    68
 ];
 
 function addFrontSkill(){

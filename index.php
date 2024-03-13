@@ -2,7 +2,7 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/png" href="pictures/logo.png"/>
+  <link rel="shortcut icon" type="image/png" href="pictures/thomas.png"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/88ce417d72.js" crossorigin="anonymous"></script>
@@ -10,6 +10,18 @@
   <title>Holderbaum Thomas - Développeur FullStack</title>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light lg-12">
+    <div class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item "><a class="nav-link" href="#homePresentation">Home</a></li>
+          <li class="nav-item "><a class="nav-link" href="#skills">Compétences</a></li>
+          <li class="nav-item "><a class="nav-link" href="#projects">Projets</a></li>
+          <li class="nav-item "><a class="nav-link" href="#contactMe">Contact</a></li>
+          <li class="nav-item "><a class="nav-link" href="#">Blog</a></li>
+        </ul>
+    </div>
+  </nav>
   <div class="row homePresentation">
     <div class="container">
       <div class="col-lg-12 text-center">
@@ -17,11 +29,12 @@
       </div>
       <div class="col-12 text-center">
         <h1 class="display-4">Thomas Holderbaum</h1>
+        <h3>A la recherche d'une alternance </h2>
         <p>Bonjour ! <br><br>Admin systèmes depuis maintenant 10 ans, je suis actuellement en reconversion vers le développement web.
           <br><br>Expert en gestion d'infrastructures, je fusionne expérience et passion du code.
           <br>Motivé par la créativité, je suis prêt pour de nouveaux défis !
-          <br><br>Découvrez l'alliance unique entre mon expérience en admin systèmes et ma nouvelle passion pour le développement web.
-          <br><br>Afin d'en connaitre d'avantages sur mon parcours professionnel vous pouvez télécharger mon CV <br><br><a href="#" class="btn btn-primary btn-dark" id="btnCV">ici</a></p>
+          <br><br>Découvrez l'alliance unique entre mon expérience en tant qu'admin systèmes et ma nouvelle passion pour le développement web.
+          <br><br>Afin d'en connaitre d'avantages sur mon parcours professionnel vous pouvez télécharger mon CV <br><br><a href="Downloads\CV_Alternance.pdf" class="btn btn-primary btn-dark" id="btnCV" target="_blank">ici</a></p>
       </div>
     </div>
   </div>
@@ -83,12 +96,15 @@
           </div>
         </div>
     </div>
+
+
   <div id="contactMe">
     <div class="container">
       <div class="row">
         <div class="col-12 p-5 text-center">
           <h2 class="display-4">Contactez moi</h2>
         </div>
+      
         <form method="post" action="script/form.php">
           <div class="form-row">
             <div class="col-lg-6 col-sm-12">

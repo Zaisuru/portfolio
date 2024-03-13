@@ -5,16 +5,20 @@
 }
 
 .projectCard{
-  height: 80%;
+  height: 15em;
+  max-height: 15em;
   padding: 0;
   display: flex;
   margin: 1em 0 1em 0 ;
+  border: none;
   .card-img-top{
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
   .card-body{
+    height: 100%;
     display: none;
+    object-fit: contain;
   }
   .btn{
     width: 35%;

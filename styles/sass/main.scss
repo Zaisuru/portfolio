@@ -8,6 +8,10 @@
 @import "components/btn";
 @import "components/progressbar";
 
+
+@import "layout/header";
+@import "layout/nav";
+
 body{
   font-family: $Roboto;
   margin: 0;
@@ -21,7 +25,8 @@ body{
   }
   #skills{
     background-color: $secondaryColor;
-    margin-bottom: 1.5em;
+    height: 100%;
+    margin-bottom: 5em;
   }
   #projects{
     background-color: $primaryColor;
@@ -29,6 +34,7 @@ body{
     color:white;
   }
   #contactMe{
+    margin: 1.5em 0 1.5em 0;
     background-color: $secondaryColor;
   }
 }

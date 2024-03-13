@@ -1,0 +1,8 @@
+@import "../abstracts/variables";
+
+.nav-item{
+    margin: 0 2em 0 2em;
+    &:hover a{
+        color: $quarteraryColor;
+    }
+}

@@ -13,10 +13,17 @@ let describeProject= [
     "Création d'un dashboard de ventes pour les magasins KiloShop"
 
 ];
-let imgProject = ["http://www.pepiniere-ets-leclerc.com/",
-"KiloShop.png",
-"booki.png",
-"booki.png"];
+let imgProject = ["pictures/pep.png",
+"pictures/KiloShop.png",
+"pictures/booki.png",
+"pictures/ohMyFood.png"];
+
+
+let linkProject =["http://www.pepiniere-ets-leclerc.com",
+"http://www.pepiniere-ets-leclerc.com",
+"https://zaisuru.github.io/Booki/",
+"http://www.pepiniere-ets-leclerc.com"
+]
 
 function addElement() {
     // declare tag element
@@ -28,7 +35,7 @@ function addElement() {
         const cardTitleDiv = document.createElement("div");
         const titleCard = document.createElement("h3");
         const paragraph = document.createElement("p");
-        const btn = document.createElement("button");
+        const btn = document.createElement("a");
 
         colDiv.classList.add("col-lg-4");
         colDiv.setAttribute("id","responsive"+titleProject[i]);
@@ -40,7 +47,7 @@ function addElement() {
 
         img.classList.add('card-img-top');
         img.setAttribute("id", titleProject[i]);
-        img.setAttribute("src","https://aprc.it/api/240x150/"+imgProject[i]);
+        img.setAttribute("src",imgProject[i]);
         document.getElementById(cardDiv.id).appendChild(img);
 
         cardBodyDiv.classList.add("card-body");
@@ -57,6 +64,9 @@ function addElement() {
         paragraph.textContent = describeProject[i];
         document.getElementById(cardBodyDiv.id).appendChild(paragraph);
 
+        
+        btn.setAttribute("href", linkProject[i]);
+        btn.setAttribute("target", "_blank");
         btn.classList.add('btn','btn-primary','btn-light');
         btn.textContent = ("Voir le site");
         document.getElementById(cardBodyDiv.id).appendChild(btn);
