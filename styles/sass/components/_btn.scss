@@ -1,7 +1,7 @@
 @import "../abstracts/variables";
 
 #btnCV{
-  width: 150px;
+  width: 25%;
 }
 .btn-dark{
   background-color: $secondaryColor;
@@ -20,4 +20,8 @@
      background-color: $quarteraryColor;
      color: white;
    }
+ }
+ .formBtn{
+  padding: 0.5em;
+  width: 30%;
  }

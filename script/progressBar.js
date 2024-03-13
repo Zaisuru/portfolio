@@ -9,13 +9,11 @@ let frontSkillPercent=[70,
 
 let backSkill = [
     "Php",
-    "Angular",
     "MySQL",
     "MariaDB"
 ];
 let backSkillPercent=[
     25,
-    20,
     60,
     40
 ];
@@ -26,14 +24,15 @@ let otherSkill = [
     "PowerShell",
     "Batch",
     "Bash",
-
+    "Gestion de projet"
 ];
 let otherSkillPercent=[
     70,
     60,
     65,
     60,
-    40
+    40,
+    65
 ];
 
 function addFrontSkill(){

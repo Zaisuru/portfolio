@@ -1,17 +1,14 @@
 .skillCard{
-  padding: 15px;
-  margin-top: 15px;
-  height: 550px;
-  max-height: 550px;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  height: 100%;
 }
 
 .projectCard{
-  height: 250px;
+  height: 80%;
   padding: 0;
-  max-height: 350px;
   display: flex;
-  margin: 25px 0 25px 0 ;
-  align-items: center;
+  margin: 1em 0 1em 0 ;
   .card-img-top{
     height: 100%;
     width: 100%;
@@ -24,7 +21,7 @@
     display: none;
   }
   p{
-    font-size: 15px;
+    font-size: 1em;
   }
   &:hover{
     background-color: white;
@@ -32,7 +29,10 @@
       display: none;
     }
     .card-body{
-      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
     }
     .btn{
       display: block;

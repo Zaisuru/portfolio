@@ -59,7 +59,6 @@ function addElement() {
 
         btn.classList.add('btn','btn-primary','btn-light');
         btn.textContent = ("Voir le site");
-        document.getElementById(cardDiv.id).appendChild(btn);
-
+        document.getElementById(cardBodyDiv.id).appendChild(btn);
     }
 }

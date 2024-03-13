@@ -57,7 +57,7 @@
           </div>
         </div>
 
-        <div class="col-sm-12 col-lg-4">
+        <div class="col-sm-12 col-lg-4" >
           <div class="card skillCard">
             <div class="card-title">
               <h3 class="display-6 text-center">Autres</h3>
@@ -108,13 +108,6 @@
           <div class="form-row">
             <label for="textareaMessage">Ecrivez votre message ici : </label>
             <textarea class="form-control" rows="6" id="textareaMessage" placeholder="Votre Message" name="msg"></textarea>
-          </div>
-
-          <div class="form-row">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              En cochant cette case j'accepte que mes donnéees soient conservés.
-            </label>
           </div>
           <div class="text-center">
             <button type="submit" class="btn btn-primary mb-2 text-center formBtn btn-light">Envoyer</button>
